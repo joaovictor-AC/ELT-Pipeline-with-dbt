@@ -4,14 +4,14 @@ sources:
   - name: bronze
     description: "Raw GitHub data"
     schema: bronze
+
     tables:
       - name: raw_repositories
         description: "Repository metadata"
-        columns: 
+        columns:
           - name: full_name
             description: "Unique identifier owner/repo"
             tests:
-              - unique
               - not_null
 
       - name: raw_commits
@@ -22,14 +22,14 @@ sources:
               - not_null
 
       - name: raw_pull_requests
-        description: "Pull requests (all states)"
+        description: "Pull requests"
         columns:
           - name: pr_number
             tests:
               - not_null
 
       - name: raw_issues
-        description: "Issues (all states)"
+        description: "Issues"
         columns:
           - name: issue_number
             tests:

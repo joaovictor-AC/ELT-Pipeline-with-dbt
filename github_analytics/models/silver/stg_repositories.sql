@@ -29,4 +29,9 @@ cleaned as (
     from source
     where archived = false 
 )
-select * from cleaned
+select *
+from cleaned
+qualify row_number() over (
+    partition by repo_id
+    order by updated_at desc
+) = 1
