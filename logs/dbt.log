@@ -1,0 +1,1000 @@
+[0m11:13:56.472719 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3a7ecf67b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3a7efaf800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3a7ebb86b0>]}
+
+
+============================== 11:13:56.493204 | 9ec03d29-1f99-467e-9ea6-c6b423da1b91 ==============================
+[0m11:13:56.493204 [info ] [MainThread]: Running with dbt=1.11.6
+[0m11:13:56.493709 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'empty': 'None', 'warn_error': 'None', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'debug': 'False', 'profiles_dir': '/home/joao-victor/.dbt', 'cache_selected_only': 'False', 'version_check': 'True', 'indirect_selection': 'eager', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'fail_fast': 'False', 'no_print': 'None', 'log_cache_events': 'False', 'target_path': 'None', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'use_experimental_parser': 'False', 'log_format': 'default', 'use_colors': 'True'}
+[0m11:13:56.502232 [info ] [MainThread]: Creating dbt configuration folder at /home/joao-victor/.dbt
+[0m11:15:07.961849 [debug] [MainThread]: Starter project path: /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:15:07.964036 [info ] [MainThread]: 
+Your new dbt project "github_analytics" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:15:07.964493 [info ] [MainThread]: Setting up your profile.
+[0m11:15:59.455972 [info ] [MainThread]: Profile github_analytics written to /home/joao-victor/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:15:59.537663 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 123.1207, "process_in_blocks": "88", "process_kernel_time": 0.075013, "process_mem_max_rss": "129556", "process_out_blocks": "88", "process_user_time": 1.269227}
+[0m11:15:59.538163 [debug] [MainThread]: Command `dbt init` succeeded at 11:15:59.538069 after 123.12 seconds
+[0m11:15:59.538493 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3a7f0867b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3a7e36ec90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3a7e3de600>]}
+[0m11:15:59.538868 [debug] [MainThread]: Flushing usage events
+[0m11:15:59.991833 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:56:04.505885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e490e6612b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e490e4aa510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e490e878830>]}
+
+
+============================== 11:56:04.577290 | 45db5e67-bd47-4189-ad0b-623aa56a425f ==============================
+[0m11:56:04.577290 [info ] [MainThread]: Running with dbt=1.11.6
+[0m11:56:04.578031 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'empty': 'None', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/joao-victor/.dbt', 'partial_parse': 'True', 'write_json': 'True', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'use_colors': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'target_path': 'None', 'log_cache_events': 'False', 'printer_width': '80', 'no_print': 'None', 'quiet': 'False', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'static_parser': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'debug': 'False'}
+[0m11:56:04.665265 [info ] [MainThread]: Setting up your profile.
+[0m11:56:26.983949 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 22.578875, "process_in_blocks": "183824", "process_kernel_time": 0.154717, "process_mem_max_rss": "129492", "process_out_blocks": "24", "process_user_time": 1.37223}
+[0m11:56:26.984678 [debug] [MainThread]: Command `dbt init` succeeded at 11:56:26.984510 after 22.58 seconds
+[0m11:56:26.985142 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e490e4a8fe0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e490e09fc80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e490dc0d6d0>]}
+[0m11:56:26.985682 [debug] [MainThread]: Flushing usage events
+[0m11:56:27.716214 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:58:24.018896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7ddcd2d5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7ddd304e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7ddd13b890>]}
+
+
+============================== 11:58:24.021841 | ee23809d-4be6-4585-8f07-65174fef3ec4 ==============================
+[0m11:58:24.021841 [info ] [MainThread]: Running with dbt=1.11.6
+[0m11:58:24.022411 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'use_colors': 'True', 'introspect': 'True', 'quiet': 'False', 'fail_fast': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'static_parser': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'partial_parse': 'True', 'printer_width': '80', 'target_path': 'None', 'warn_error': 'None', 'profiles_dir': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/.dbt', 'no_print': 'None'}
+[0m11:58:24.050590 [info ] [MainThread]: dbt version: 1.11.6
+[0m11:58:24.050988 [info ] [MainThread]: python version: 3.12.3
+[0m11:58:24.051338 [info ] [MainThread]: python path: /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/.venv/bin/python3.12
+[0m11:58:24.051667 [info ] [MainThread]: os info: Linux-6.17.0-14-generic-x86_64-with-glibc2.39
+[0m11:58:24.152032 [info ] [MainThread]: Using profiles dir at /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/.dbt
+[0m11:58:24.152500 [info ] [MainThread]: Using profiles.yml file at /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/.dbt/profiles.yml
+[0m11:58:24.152887 [info ] [MainThread]: Using dbt_project.yml file at /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/dbt_project.yml
+[0m11:58:24.165902 [info ] [MainThread]: adapter type: duckdb
+[0m11:58:24.166295 [info ] [MainThread]: adapter version: 1.10.1
+[0m11:58:24.268940 [info ] [MainThread]: Configuration:
+[0m11:58:24.269397 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:58:24.269778 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:58:24.270193 [info ] [MainThread]: Required dependencies:
+[0m11:58:24.270566 [debug] [MainThread]: Executing "git --help"
+[0m11:58:24.272131 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:58:24.272515 [debug] [MainThread]: STDERR: "b''"
+[0m11:58:24.272818 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:58:24.273130 [info ] [MainThread]: Connection:
+[0m11:58:24.273449 [info ] [MainThread]:   database: github_analytics
+[0m11:58:24.273754 [info ] [MainThread]:   schema: main
+[0m11:58:24.274042 [info ] [MainThread]:   path: github_analytics.duckdb
+[0m11:58:24.274328 [info ] [MainThread]:   config_options: None
+[0m11:58:24.274623 [info ] [MainThread]:   extensions: None
+[0m11:58:24.274910 [info ] [MainThread]:   settings: {}
+[0m11:58:24.275199 [info ] [MainThread]:   external_root: .
+[0m11:58:24.275488 [info ] [MainThread]:   use_credential_provider: None
+[0m11:58:24.275781 [info ] [MainThread]:   attach: None
+[0m11:58:24.276064 [info ] [MainThread]:   filesystems: None
+[0m11:58:24.276353 [info ] [MainThread]:   remote: None
+[0m11:58:24.276660 [info ] [MainThread]:   plugins: None
+[0m11:58:24.276961 [info ] [MainThread]:   disable_transactions: False
+[0m11:58:24.277475 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m11:58:24.486960 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m11:58:24.682868 [debug] [MainThread]: Using duckdb connection "debug"
+[0m11:58:24.683283 [debug] [MainThread]: On debug: select 1 as id
+[0m11:58:24.683573 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:58:24.801809 [debug] [MainThread]: SQL status: OK in 0.118 seconds
+[0m11:58:24.802833 [debug] [MainThread]: On debug: Close
+[0m11:58:24.803186 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:58:24.803601 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:58:24.804588 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.8426119, "process_in_blocks": "2768", "process_kernel_time": 0.112663, "process_mem_max_rss": "142424", "process_out_blocks": "56", "process_user_time": 1.515467}
+[0m11:58:24.805142 [debug] [MainThread]: Command `dbt debug` succeeded at 11:58:24.805047 after 0.84 seconds
+[0m11:58:24.805476 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:58:24.805822 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7ddec60ce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7ddce126f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b7ddc1f0680>]}
+[0m11:58:24.806212 [debug] [MainThread]: Flushing usage events
+[0m11:58:25.279310 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:00:12.873051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af26cdafc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af24080590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af23b64590>]}
+
+
+============================== 12:00:12.875659 | fd78bc0a-3b39-49ab-b6ba-74732f533e93 ==============================
+[0m12:00:12.875659 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:00:12.876275 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'write_json': 'True', 'no_print': 'None', 'quiet': 'False', 'cache_selected_only': 'False', 'warn_error': 'None', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'fail_fast': 'False', 'printer_width': '80', 'empty': 'None', 'static_parser': 'True', 'profiles_dir': '/home/joao-victor/.dbt', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'debug': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories', 'version_check': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs'}
+[0m12:00:13.087799 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af22c19220>]}
+[0m12:00:13.148598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af22e1cb00>]}
+[0m12:00:13.227072 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:00:13.343286 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:00:13.343946 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m12:00:13.344346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af1b18c170>]}
+[0m12:00:14.171395 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.silver
+- models.github_analytics.gold
+[0m12:00:14.175921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af22ce51c0>]}
+[0m12:00:14.209587 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:00:14.267251 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:00:14.407441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af19e60530>]}
+[0m12:00:14.407898 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:00:14.408252 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af19f5fb30>]}
+[0m12:00:14.409683 [info ] [MainThread]: 
+[0m12:00:14.410027 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:00:14.410343 [info ] [MainThread]: 
+[0m12:00:14.410801 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:00:14.411148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fd78bc0a-3b39-49ab-b6ba-74732f533e93', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af22d50410>]}
+[0m12:00:14.473039 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:00:14.473616 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:00:14.473968 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:00:14.480866 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:00:14.481502 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:00:14.507710 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:00:14.508166 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:00:14.508551 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:00:14.579194 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:00:14.579684 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:00:14.580050 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:00:14.580473 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:00:14.680660 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:00:14.681350 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:00:14.681957 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:00:14.682847 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:00:14.683147 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:00:14.683603 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:00:14.684491 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 1.8642566, "process_in_blocks": "2272", "process_kernel_time": 0.11427, "process_mem_max_rss": "150956", "process_out_blocks": "1984", "process_user_time": 2.538011}
+[0m12:00:14.684959 [debug] [MainThread]: Command `dbt show` failed at 12:00:14.684862 after 1.86 seconds
+[0m12:00:14.685361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af22f3eed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af1b07b470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74af1afa2390>]}
+[0m12:00:14.685743 [debug] [MainThread]: Flushing usage events
+[0m12:00:15.320125 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:02:50.704196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e95ed6030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e95af1d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e95ed5700>]}
+
+
+============================== 12:02:50.706882 | 2a6ab271-90b8-4828-a731-0777d62a2a39 ==============================
+[0m12:02:50.706882 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:02:50.707387 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'quiet': 'False', 'profiles_dir': '/home/joao-victor/.dbt', 'indirect_selection': 'eager', 'printer_width': '80', 'version_check': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'partial_parse': 'True', 'introspect': 'True', 'empty': 'None', 'no_print': 'None', 'target_path': 'None', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories', 'debug': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'fail_fast': 'False', 'log_cache_events': 'False'}
+[0m12:02:50.908558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2a6ab271-90b8-4828-a731-0777d62a2a39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e955581d0>]}
+[0m12:02:50.981017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2a6ab271-90b8-4828-a731-0777d62a2a39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e95586330>]}
+[0m12:02:50.992453 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:02:51.066861 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:02:51.113719 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:02:51.114127 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:02:51.114424 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:02:51.115031 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.silver
+- models.github_analytics.gold
+[0m12:02:51.119970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2a6ab271-90b8-4828-a731-0777d62a2a39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e8d787a40>]}
+[0m12:02:51.157361 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:02:51.158902 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:02:51.305704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2a6ab271-90b8-4828-a731-0777d62a2a39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e8d316660>]}
+[0m12:02:51.306193 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:02:51.306607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2a6ab271-90b8-4828-a731-0777d62a2a39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e8d4cad80>]}
+[0m12:02:51.308166 [info ] [MainThread]: 
+[0m12:02:51.308505 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:02:51.308864 [info ] [MainThread]: 
+[0m12:02:51.309512 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:02:51.310019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2a6ab271-90b8-4828-a731-0777d62a2a39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e8d6aa330>]}
+[0m12:02:51.312142 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:02:51.312642 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:02:51.312982 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:02:51.318695 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:02:51.319227 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:02:51.346522 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:02:51.346985 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:02:51.347362 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:02:51.366935 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:02:51.367434 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:02:51.367837 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:02:51.368284 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:02:51.370285 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:02:51.370932 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:02:51.371626 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:02:51.372893 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:02:51.373211 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:02:51.373665 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:02:51.374487 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.72450465, "process_in_blocks": "0", "process_kernel_time": 0.122012, "process_mem_max_rss": "152004", "process_out_blocks": "1008", "process_user_time": 1.813183}
+[0m12:02:51.375028 [debug] [MainThread]: Command `dbt show` failed at 12:02:51.374930 after 0.73 seconds
+[0m12:02:51.375398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e9626c500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e8d477590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x728e8c164500>]}
+[0m12:02:51.375775 [debug] [MainThread]: Flushing usage events
+[0m12:02:51.810813 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:04:22.474276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048be4a750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048c5d5f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048d4abc50>]}
+
+
+============================== 12:04:22.476969 | 468f3103-4198-4cc7-b12a-f5befe594604 ==============================
+[0m12:04:22.476969 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:04:22.477510 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'use_colors': 'True', 'no_print': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'fail_fast': 'False', 'debug': 'False', 'printer_width': '80', 'target_path': 'None', 'partial_parse': 'True', 'log_format': 'default', 'cache_selected_only': 'False', 'quiet': 'False', 'invocation_command': 'dbt show --inline SELECT * FROM information_schema.tables', 'log_cache_events': 'False', 'static_parser': 'True', 'profiles_dir': '/home/joao-victor/.dbt', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'indirect_selection': 'eager', 'empty': 'None'}
+[0m12:04:22.682454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '468f3103-4198-4cc7-b12a-f5befe594604', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048e143ce0>]}
+[0m12:04:22.745663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '468f3103-4198-4cc7-b12a-f5befe594604', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048c2d57f0>]}
+[0m12:04:22.756023 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:04:22.830363 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:04:22.876371 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:04:22.876765 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:04:22.877055 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:04:22.877629 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.gold
+- models.github_analytics.silver
+[0m12:04:22.882139 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '468f3103-4198-4cc7-b12a-f5befe594604', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048b5de8d0>]}
+[0m12:04:22.918955 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:04:22.921235 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:04:23.074089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '468f3103-4198-4cc7-b12a-f5befe594604', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e04835047a0>]}
+[0m12:04:23.074522 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:04:23.074877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '468f3103-4198-4cc7-b12a-f5befe594604', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0483898d70>]}
+[0m12:04:23.076470 [info ] [MainThread]: 
+[0m12:04:23.076881 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:04:23.077184 [info ] [MainThread]: 
+[0m12:04:23.077639 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:04:23.077991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '468f3103-4198-4cc7-b12a-f5befe594604', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048389a540>]}
+[0m12:04:23.080114 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:04:23.080600 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:04:23.080950 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:04:23.086622 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:04:23.087219 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:04:23.114035 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:04:23.114471 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  SELECT * FROM information_schema.tables
+  
+  limit 5
+
+[0m12:04:23.114895 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:04:23.137510 [debug] [Thread-1 (]: SQL status: OK in 0.023 seconds
+[0m12:04:23.139956 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:04:23.140674 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:04:23.141578 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:04:23.141893 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:04:23.142517 [debug] [MainThread]: Command end result
+[0m12:04:23.159132 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:04:23.160538 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:04:23.166088 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/run_results.json
+[0m12:04:23.166484 [info ] [MainThread]: Previewing inline node:
+| table_catalog | table_schema | table_name | table_type | self_referencing_... | reference_generation | ... |
+| ------------- | ------------ | ---------- | ---------- | -------------------- | -------------------- | --- |
+
+[0m12:04:23.167244 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": true, "command_wall_clock_time": 0.75030404, "process_in_blocks": "0", "process_kernel_time": 0.126661, "process_mem_max_rss": "150932", "process_out_blocks": "1976", "process_user_time": 1.923856}
+[0m12:04:23.167758 [debug] [MainThread]: Command `dbt show` succeeded at 12:04:23.167628 after 0.75 seconds
+[0m12:04:23.168138 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048b82b410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e048c5d4080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7e0480431250>]}
+[0m12:04:23.168497 [debug] [MainThread]: Flushing usage events
+[0m12:04:23.630753 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:09:46.802010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5ee92480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5f284470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a60cdd9d0>]}
+
+
+============================== 12:09:46.804615 | 5ad9b724-8236-4dc0-b59b-0f582fa14971 ==============================
+[0m12:09:46.804615 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:09:46.805162 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'no_print': 'None', 'log_format': 'default', 'warn_error': 'None', 'target_path': 'None', 'indirect_selection': 'eager', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/home/joao-victor/.dbt', 'invocation_command': 'dbt show --inline SELECT * FROM information_schema.tables', 'log_cache_events': 'False', 'printer_width': '80', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'empty': 'None', 'quiet': 'False', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs'}
+[0m12:09:47.004568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5ad9b724-8236-4dc0-b59b-0f582fa14971', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5de97f80>]}
+[0m12:09:47.066348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5ad9b724-8236-4dc0-b59b-0f582fa14971', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5eaf9160>]}
+[0m12:09:47.076712 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:09:47.160617 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:09:47.207096 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:09:47.207460 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:09:47.207746 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:09:47.208286 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.gold
+- models.github_analytics.silver
+[0m12:09:47.212806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5ad9b724-8236-4dc0-b59b-0f582fa14971', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a563854c0>]}
+[0m12:09:47.249113 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:09:47.250948 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:09:47.395815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5ad9b724-8236-4dc0-b59b-0f582fa14971', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a54f00740>]}
+[0m12:09:47.396246 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:09:47.396600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5ad9b724-8236-4dc0-b59b-0f582fa14971', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5e016f30>]}
+[0m12:09:47.398144 [info ] [MainThread]: 
+[0m12:09:47.398509 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:09:47.398821 [info ] [MainThread]: 
+[0m12:09:47.399273 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:09:47.399670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5ad9b724-8236-4dc0-b59b-0f582fa14971', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a56273590>]}
+[0m12:09:47.401753 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:09:47.402265 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:09:47.402616 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:09:47.408381 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:09:47.408938 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:09:47.434870 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:09:47.435526 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  SELECT * FROM information_schema.tables
+  
+  limit 5
+
+[0m12:09:47.435876 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:09:47.457040 [debug] [Thread-1 (]: SQL status: OK in 0.021 seconds
+[0m12:09:47.459173 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:09:47.459873 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:09:47.460708 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:09:47.460996 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:09:47.461589 [debug] [MainThread]: Command end result
+[0m12:09:47.476754 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:09:47.478094 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:09:47.483820 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/run_results.json
+[0m12:09:47.484206 [info ] [MainThread]: Previewing inline node:
+| table_catalog | table_schema | table_name | table_type | self_referencing_... | reference_generation | ... |
+| ------------- | ------------ | ---------- | ---------- | -------------------- | -------------------- | --- |
+
+[0m12:09:47.485035 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": true, "command_wall_clock_time": 0.7366938, "process_in_blocks": "0", "process_kernel_time": 0.127014, "process_mem_max_rss": "150992", "process_out_blocks": "1976", "process_user_time": 1.836215}
+[0m12:09:47.485632 [debug] [MainThread]: Command `dbt show` succeeded at 12:09:47.485507 after 0.74 seconds
+[0m12:09:47.485995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a563861e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5fc1df70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a7a5eeb3f20>]}
+[0m12:09:47.486370 [debug] [MainThread]: Flushing usage events
+[0m12:09:47.928142 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:09:57.359877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc4703e3920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc4702d54f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc4705468a0>]}
+
+
+============================== 12:09:57.362553 | 99233d69-6f97-4494-814b-3149180b319e ==============================
+[0m12:09:57.362553 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:09:57.363080 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'printer_width': '80', 'empty': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'debug': 'False', 'quiet': 'False', 'target_path': 'None', 'use_colors': 'True', 'static_parser': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'profiles_dir': '/home/joao-victor/.dbt', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'introspect': 'True', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories', 'indirect_selection': 'eager', 'fail_fast': 'False', 'version_check': 'True', 'partial_parse': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'warn_error': 'None'}
+[0m12:09:57.567825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '99233d69-6f97-4494-814b-3149180b319e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc46f7efa40>]}
+[0m12:09:57.631313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '99233d69-6f97-4494-814b-3149180b319e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc46f924ad0>]}
+[0m12:09:57.642003 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:09:57.728695 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:09:57.781077 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:09:57.781460 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:09:57.781761 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:09:57.782359 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.gold
+- models.github_analytics.silver
+[0m12:09:57.787073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '99233d69-6f97-4494-814b-3149180b319e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc467b4c9b0>]}
+[0m12:09:57.825389 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:09:57.826919 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:09:57.972898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '99233d69-6f97-4494-814b-3149180b319e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc4677167b0>]}
+[0m12:09:57.973347 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:09:57.973692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '99233d69-6f97-4494-814b-3149180b319e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc467aa6de0>]}
+[0m12:09:57.975427 [info ] [MainThread]: 
+[0m12:09:57.975955 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:09:57.976381 [info ] [MainThread]: 
+[0m12:09:57.977028 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:09:57.977522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '99233d69-6f97-4494-814b-3149180b319e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc467cd2ae0>]}
+[0m12:09:57.979963 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:09:57.980629 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:09:57.981018 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:09:57.987941 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:09:57.988504 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:09:58.014283 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:09:58.014719 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:09:58.015066 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:09:58.034304 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:09:58.034769 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:09:58.035118 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:09:58.035525 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:09:58.037427 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:09:58.038009 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:09:58.038645 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:09:58.039502 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:09:58.039805 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:09:58.040212 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:09:58.041167 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.73559093, "process_in_blocks": "0", "process_kernel_time": 0.123092, "process_mem_max_rss": "152028", "process_out_blocks": "1000", "process_user_time": 1.90443}
+[0m12:09:58.041607 [debug] [MainThread]: Command `dbt show` failed at 12:09:58.041505 after 0.74 seconds
+[0m12:09:58.041966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc47254af60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc467877890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7dc467b87d10>]}
+[0m12:09:58.042332 [debug] [MainThread]: Flushing usage events
+[0m12:09:58.503080 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:10:42.155965 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fe3c02c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a600843320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fdf4a540>]}
+
+
+============================== 12:10:42.158594 | ef4ad00e-1d9c-463e-aca2-8f581cdad5f9 ==============================
+[0m12:10:42.158594 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:10:42.159073 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'partial_parse': 'True', 'write_json': 'True', 'target_path': 'None', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'static_parser': 'True', 'quiet': 'False', 'version_check': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'debug': 'False', 'profiles_dir': '/home/joao-victor/.dbt', 'log_cache_events': 'False', 'empty': 'None', 'printer_width': '80', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'warn_error': 'None', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories'}
+[0m12:10:42.360173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ef4ad00e-1d9c-463e-aca2-8f581cdad5f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fdc0fb00>]}
+[0m12:10:42.422498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ef4ad00e-1d9c-463e-aca2-8f581cdad5f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fd98c860>]}
+[0m12:10:42.432844 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:10:42.519252 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:10:42.566396 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:10:42.566784 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:10:42.567063 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:10:42.567622 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.gold
+- models.github_analytics.silver
+[0m12:10:42.572133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ef4ad00e-1d9c-463e-aca2-8f581cdad5f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fe1c5e80>]}
+[0m12:10:42.608952 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:10:42.610405 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:10:42.761422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ef4ad00e-1d9c-463e-aca2-8f581cdad5f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5f4b11d00>]}
+[0m12:10:42.761865 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:10:42.762188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ef4ad00e-1d9c-463e-aca2-8f581cdad5f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fdc22f90>]}
+[0m12:10:42.763717 [info ] [MainThread]: 
+[0m12:10:42.764069 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:10:42.764363 [info ] [MainThread]: 
+[0m12:10:42.764809 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:10:42.765151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ef4ad00e-1d9c-463e-aca2-8f581cdad5f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fea74350>]}
+[0m12:10:42.767252 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:10:42.767792 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:10:42.768308 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:10:42.774695 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:10:42.775248 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:10:42.800576 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:10:42.801016 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:10:42.801359 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:10:42.820486 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:10:42.821031 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:10:42.821378 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:10:42.821808 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:10:42.823708 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:10:42.824285 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:10:42.824877 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:10:42.825750 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:10:42.826047 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:10:42.826457 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:10:42.827644 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.72667843, "process_in_blocks": "0", "process_kernel_time": 0.120023, "process_mem_max_rss": "152052", "process_out_blocks": "1008", "process_user_time": 1.840352}
+[0m12:10:42.828103 [debug] [MainThread]: Command `dbt show` failed at 12:10:42.828008 after 0.73 seconds
+[0m12:10:42.828446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5fe3c2690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5f4b6e990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74a5d676c5f0>]}
+[0m12:10:42.828814 [debug] [MainThread]: Flushing usage events
+[0m12:10:43.243432 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:12:10.178228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759ce7ca66f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759ce7b698e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759ce7c35220>]}
+
+
+============================== 12:12:10.180942 | e57f87d6-29c5-4735-bbcd-29b8f7c558e2 ==============================
+[0m12:12:10.180942 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:12:10.181596 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'indirect_selection': 'eager', 'static_parser': 'True', 'debug': 'False', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories', 'warn_error': 'None', 'write_json': 'True', 'version_check': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'profiles_dir': '/home/joao-victor/.dbt', 'log_format': 'default', 'printer_width': '80', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'cache_selected_only': 'False', 'empty': 'None', 'no_print': 'None', 'introspect': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'target_path': 'None'}
+[0m12:12:10.382851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e57f87d6-29c5-4735-bbcd-29b8f7c558e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759ce7dc77a0>]}
+[0m12:12:10.445433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e57f87d6-29c5-4735-bbcd-29b8f7c558e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759ce73a6930>]}
+[0m12:12:10.455821 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:12:10.535986 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:12:10.582724 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:12:10.583089 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:12:10.583369 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:12:10.583915 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.gold
+- models.github_analytics.silver
+[0m12:12:10.589913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e57f87d6-29c5-4735-bbcd-29b8f7c558e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759cdf854f50>]}
+[0m12:12:10.626363 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:12:10.627792 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:12:10.772744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e57f87d6-29c5-4735-bbcd-29b8f7c558e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759cdf4e71a0>]}
+[0m12:12:10.773191 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:12:10.773567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e57f87d6-29c5-4735-bbcd-29b8f7c558e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759cdf48db80>]}
+[0m12:12:10.775641 [info ] [MainThread]: 
+[0m12:12:10.776080 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:12:10.776483 [info ] [MainThread]: 
+[0m12:12:10.777101 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:12:10.777604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e57f87d6-29c5-4735-bbcd-29b8f7c558e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759cdf4e6ba0>]}
+[0m12:12:10.779883 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:12:10.780661 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:12:10.781207 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:12:10.787788 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:12:10.788547 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:12:10.814427 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:12:10.814934 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:12:10.815307 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:12:10.834748 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:12:10.835208 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:12:10.835557 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:12:10.835963 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:12:10.837821 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:12:10.838391 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:12:10.838967 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:12:10.839834 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:12:10.840135 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:12:10.840573 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:12:10.841618 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.7180059, "process_in_blocks": "0", "process_kernel_time": 0.135124, "process_mem_max_rss": "152132", "process_out_blocks": "1008", "process_user_time": 1.825687}
+[0m12:12:10.842240 [debug] [MainThread]: Command `dbt show` failed at 12:12:10.842110 after 0.72 seconds
+[0m12:12:10.842748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759ce9038a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759cdf346990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x759cdf44efc0>]}
+[0m12:12:10.843160 [debug] [MainThread]: Flushing usage events
+[0m12:12:11.243132 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:13:47.623939 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b215a32ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b215598c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b21561fec0>]}
+
+
+============================== 12:13:47.626514 | ba0041a7-7f3f-4310-a560-3bf3e864849b ==============================
+[0m12:13:47.626514 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:13:47.627011 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'introspect': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'write_json': 'True', 'debug': 'False', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'quiet': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'indirect_selection': 'eager', 'profiles_dir': '/home/joao-victor/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'no_print': 'None', 'static_parser': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories'}
+[0m12:13:47.826268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ba0041a7-7f3f-4310-a560-3bf3e864849b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b2149dc9e0>]}
+[0m12:13:47.888819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ba0041a7-7f3f-4310-a560-3bf3e864849b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b214a9e840>]}
+[0m12:13:47.899288 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:13:47.975797 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:13:48.022306 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:13:48.022681 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:13:48.022970 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:13:48.023514 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.silver
+- models.github_analytics.gold
+[0m12:13:48.027962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ba0041a7-7f3f-4310-a560-3bf3e864849b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b214a823c0>]}
+[0m12:13:48.065985 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:13:48.067596 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:13:48.212806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ba0041a7-7f3f-4310-a560-3bf3e864849b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b20cbdc770>]}
+[0m12:13:48.213235 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:13:48.213583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ba0041a7-7f3f-4310-a560-3bf3e864849b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b214ba3e00>]}
+[0m12:13:48.215188 [info ] [MainThread]: 
+[0m12:13:48.215597 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:13:48.215898 [info ] [MainThread]: 
+[0m12:13:48.216365 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:13:48.216732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ba0041a7-7f3f-4310-a560-3bf3e864849b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b20cd72330>]}
+[0m12:13:48.218701 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:13:48.219221 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:13:48.219595 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:13:48.225352 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:13:48.225913 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:13:48.251631 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:13:48.252071 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:13:48.252442 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:13:48.272895 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:13:48.273349 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:13:48.273708 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:13:48.274115 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:13:48.276041 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:13:48.276654 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:13:48.277265 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:13:48.278137 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:13:48.278426 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:13:48.278833 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:13:48.279803 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.71042156, "process_in_blocks": "0", "process_kernel_time": 0.113893, "process_mem_max_rss": "152112", "process_out_blocks": "1008", "process_user_time": 1.847276}
+[0m12:13:48.280260 [debug] [MainThread]: Command `dbt show` failed at 12:13:48.280167 after 0.71 seconds
+[0m12:13:48.280636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b215598c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b1fd828da0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75b20cc34860>]}
+[0m12:13:48.281001 [debug] [MainThread]: Flushing usage events
+[0m12:13:48.891294 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:15:11.337906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e5f467b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e841efc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e65545c0>]}
+
+
+============================== 12:15:11.341776 | 5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8 ==============================
+[0m12:15:11.341776 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:15:11.342465 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'partial_parse': 'True', 'write_json': 'True', 'target_path': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'cache_selected_only': 'False', 'use_colors': 'True', 'debug': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'quiet': 'False', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'empty': 'None', 'invocation_command': 'dbt show --inline SELECT * FROM information_schema.tables', 'profiles_dir': '/home/joao-victor/.dbt', 'indirect_selection': 'eager', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80'}
+[0m12:15:11.556168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e5841c40>]}
+[0m12:15:11.619701 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e5fae390>]}
+[0m12:15:11.630487 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:15:11.707391 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:15:11.755266 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:15:11.755651 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:15:11.755931 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:15:11.756525 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.silver
+- models.github_analytics.gold
+[0m12:15:11.761116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95dda67fb0>]}
+[0m12:15:11.798335 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:15:11.799884 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:15:11.946734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95dd7f6330>]}
+[0m12:15:11.947163 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:15:11.947486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95ddbd6f60>]}
+[0m12:15:11.949048 [info ] [MainThread]: 
+[0m12:15:11.949396 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:15:11.949700 [info ] [MainThread]: 
+[0m12:15:11.950136 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:15:11.950475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5db5ee9b-3f35-4e71-88c6-e0c1829fdbf8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95dd7f4bc0>]}
+[0m12:15:11.952571 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:15:11.953101 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:15:11.953464 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:15:11.959144 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:15:11.959726 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:15:11.985377 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:15:11.985855 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  SELECT * FROM information_schema.tables
+  
+  limit 5
+
+[0m12:15:11.986216 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:15:12.006754 [debug] [Thread-1 (]: SQL status: OK in 0.020 seconds
+[0m12:15:12.008952 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:15:12.009674 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:15:12.011075 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:15:12.011371 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:15:12.011979 [debug] [MainThread]: Command end result
+[0m12:15:12.026650 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:15:12.027895 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:15:12.033382 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/run_results.json
+[0m12:15:12.033776 [info ] [MainThread]: Previewing inline node:
+| table_catalog | table_schema | table_name | table_type | self_referencing_... | reference_generation | ... |
+| ------------- | ------------ | ---------- | ---------- | -------------------- | -------------------- | --- |
+
+[0m12:15:12.034530 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": true, "command_wall_clock_time": 0.750483, "process_in_blocks": "0", "process_kernel_time": 0.11982, "process_mem_max_rss": "150976", "process_out_blocks": "1976", "process_user_time": 1.871199}
+[0m12:15:12.034983 [debug] [MainThread]: Command `dbt show` succeeded at 12:15:12.034885 after 0.75 seconds
+[0m12:15:12.035332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e841efc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95e980deb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7c95dd7af890>]}
+[0m12:15:12.035696 [debug] [MainThread]: Flushing usage events
+[0m12:15:12.752029 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:15:51.922115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7093ce79be30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7093cde7d1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7093cdfb0b00>]}
+
+
+============================== 12:15:51.924793 | 97dbd2fc-7526-499c-bdfb-6d149439fc1c ==============================
+[0m12:15:51.924793 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:15:51.925368 [debug] [MainThread]: running dbt with arguments {'quiet': 'False', 'invocation_command': 'dbt show --inline SELECT * FROM information_schema.tables', 'profiles_dir': '/home/joao-victor/.dbt', 'warn_error': 'None', 'target_path': 'None', 'write_json': 'True', 'cache_selected_only': 'False', 'printer_width': '80', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'empty': 'None', 'introspect': 'True', 'debug': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'use_colors': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'version_check': 'True', 'static_parser': 'True'}
+[0m12:15:51.927976 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named './github_analytics'
+[0m12:15:51.928874 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.060817704, "process_in_blocks": "0", "process_kernel_time": 0.08791, "process_mem_max_rss": "100264", "process_out_blocks": "16", "process_user_time": 1.185789}
+[0m12:15:51.929297 [debug] [MainThread]: Command `dbt show` failed at 12:15:51.929204 after 0.06 seconds
+[0m12:15:51.929643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7093ce338560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7093ce0594c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7093cd5bb830>]}
+[0m12:15:51.930003 [debug] [MainThread]: Flushing usage events
+[0m12:15:52.334261 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:15:58.697321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779017ee1a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7790176dcaa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x779017ee1d90>]}
+
+
+============================== 12:15:58.699964 | 066acfcd-25a0-482e-a520-0d81783baf5e ==============================
+[0m12:15:58.699964 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:15:58.700453 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'debug': 'False', 'static_parser': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'target_path': 'None', 'log_format': 'default', 'introspect': 'True', 'indirect_selection': 'eager', 'printer_width': '80', 'cache_selected_only': 'False', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'invocation_command': 'dbt show --inline SELECT * FROM information_schema.tables', 'empty': 'None', 'profiles_dir': '/home/joao-victor/.dbt', 'write_json': 'True'}
+[0m12:15:58.702999 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named './github_analytics'
+[0m12:15:58.703794 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.06126305, "process_in_blocks": "0", "process_kernel_time": 0.084908, "process_mem_max_rss": "100384", "process_out_blocks": "0", "process_user_time": 1.196709}
+[0m12:15:58.704246 [debug] [MainThread]: Command `dbt show` failed at 12:15:58.704148 after 0.06 seconds
+[0m12:15:58.704591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7790177bd010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77901700f2c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77901700f440>]}
+[0m12:15:58.704954 [debug] [MainThread]: Flushing usage events
+[0m12:15:59.137293 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:16:13.142036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7490703c5790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906df4b980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906e0996d0>]}
+
+
+============================== 12:16:13.144735 | 0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92 ==============================
+[0m12:16:13.144735 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:16:13.145249 [debug] [MainThread]: running dbt with arguments {'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'fail_fast': 'False', 'invocation_command': 'dbt show --inline SELECT * FROM information_schema.tables', 'write_json': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'use_colors': 'True', 'no_print': 'None', 'log_format': 'default', 'printer_width': '80', 'empty': 'None', 'indirect_selection': 'eager', 'version_check': 'True', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/joao-victor/.dbt', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'warn_error': 'None', 'quiet': 'False'}
+[0m12:16:13.349700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906d20bcb0>]}
+[0m12:16:13.411044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906fe3bd10>]}
+[0m12:16:13.421349 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:16:13.498634 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:16:13.544206 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:16:13.544566 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:16:13.544837 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:16:13.545356 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.silver
+- models.github_analytics.gold
+[0m12:16:13.551390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906d150aa0>]}
+[0m12:16:13.588246 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:16:13.589750 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:16:13.734331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906410ca10>]}
+[0m12:16:13.734773 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:16:13.735108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906d06ef90>]}
+[0m12:16:13.736712 [info ] [MainThread]: 
+[0m12:16:13.737144 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:16:13.737529 [info ] [MainThread]: 
+[0m12:16:13.738155 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:16:13.738632 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0b4c8ed2-6850-47b2-8d2c-3fd0479f8d92', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906410e240>]}
+[0m12:16:13.740895 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:16:13.741462 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:16:13.741838 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:16:13.748477 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:16:13.749020 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:16:13.774512 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:16:13.774984 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  SELECT * FROM information_schema.tables
+  
+  limit 5
+
+[0m12:16:13.775441 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:16:13.797708 [debug] [Thread-1 (]: SQL status: OK in 0.022 seconds
+[0m12:16:13.799918 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:16:13.800647 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:16:13.801475 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:16:13.801773 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:16:13.802351 [debug] [MainThread]: Command end result
+[0m12:16:13.817088 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:16:13.818399 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:16:13.824061 [debug] [MainThread]: Wrote artifact RunExecutionResult to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/run_results.json
+[0m12:16:13.824424 [info ] [MainThread]: Previewing inline node:
+| table_catalog | table_schema | table_name | table_type | self_referencing_... | reference_generation | ... |
+| ------------- | ------------ | ---------- | ---------- | -------------------- | -------------------- | --- |
+
+[0m12:16:13.825223 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": true, "command_wall_clock_time": 0.7389733, "process_in_blocks": "0", "process_kernel_time": 0.119164, "process_mem_max_rss": "151212", "process_out_blocks": "1960", "process_user_time": 1.868586}
+[0m12:16:13.825732 [debug] [MainThread]: Command `dbt show` succeeded at 12:16:13.825639 after 0.74 seconds
+[0m12:16:13.826085 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906dac17f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74906d71ecf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74905de6d700>]}
+[0m12:16:13.826447 [debug] [MainThread]: Flushing usage events
+[0m12:16:14.298936 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:17:49.275609 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x737127e52510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73712a346de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x737127e524e0>]}
+
+
+============================== 12:17:49.278562 | 147652de-7afb-4b81-a3f9-d7237c86e4ca ==============================
+[0m12:17:49.278562 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:17:49.279414 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'empty': 'None', 'printer_width': '80', 'write_json': 'True', 'partial_parse': 'True', 'log_cache_events': 'False', 'static_parser': 'True', 'log_path': '/home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/logs', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'quiet': 'False', 'cache_selected_only': 'False', 'no_print': 'None', 'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories', 'fail_fast': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error': 'None', 'profiles_dir': '/home/joao-victor/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True'}
+[0m12:17:49.484278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '147652de-7afb-4b81-a3f9-d7237c86e4ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711fbacfb0>]}
+[0m12:17:49.548188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '147652de-7afb-4b81-a3f9-d7237c86e4ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73712a143bf0>]}
+[0m12:17:49.558377 [info ] [MainThread]: Registered adapter: duckdb=1.10.1
+[0m12:17:49.641793 [debug] [MainThread]: checksum: ec27062d18352e9cfca161c166fcc73d2201661a23a3cf3c89196a27f32cfcb8, vars: {}, profile: , target: , version: 1.11.6
+[0m12:17:49.687729 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:17:49.688136 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m12:17:49.688501 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:17:49.689179 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.github_analytics.silver
+- models.github_analytics.gold
+[0m12:17:49.695025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '147652de-7afb-4b81-a3f9-d7237c86e4ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73712764a1e0>]}
+[0m12:17:49.738218 [debug] [MainThread]: Wrote artifact WritableManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/manifest.json
+[0m12:17:49.740056 [debug] [MainThread]: Wrote artifact SemanticManifest to /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/target/semantic_manifest.json
+[0m12:17:49.887102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '147652de-7afb-4b81-a3f9-d7237c86e4ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711f506ea0>]}
+[0m12:17:49.887664 [info ] [MainThread]: Found 1 sql operation, 474 macros
+[0m12:17:49.888096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '147652de-7afb-4b81-a3f9-d7237c86e4ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711fbadb80>]}
+[0m12:17:49.890352 [info ] [MainThread]: 
+[0m12:17:49.890951 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:17:49.891409 [info ] [MainThread]: 
+[0m12:17:49.892124 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m12:17:49.892582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '147652de-7afb-4b81-a3f9-d7237c86e4ca', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711f506750>]}
+[0m12:17:49.895609 [debug] [Thread-1 (]: Began running node sql_operation.github_analytics.inline_query
+[0m12:17:49.896367 [debug] [Thread-1 (]: Acquiring new duckdb connection 'sql_operation.github_analytics.inline_query'
+[0m12:17:49.897016 [debug] [Thread-1 (]: Began compiling node sql_operation.github_analytics.inline_query
+[0m12:17:49.904535 [debug] [Thread-1 (]: Writing injected SQL for node "sql_operation.github_analytics.inline_query"
+[0m12:17:49.905310 [debug] [Thread-1 (]: Began executing node sql_operation.github_analytics.inline_query
+[0m12:17:49.932019 [debug] [Thread-1 (]: Using duckdb connection "sql_operation.github_analytics.inline_query"
+[0m12:17:49.932518 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:17:49.932969 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:17:49.954138 [debug] [Thread-1 (]: DuckDB adapter: duckdb error: Catalog Error: Table with name raw_repositories does not exist!
+Did you mean "information_schema.referential_constraints"?
+
+LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                     ^
+[0m12:17:49.954691 [debug] [Thread-1 (]: DuckDB adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.11.6", "profile_name": "github_analytics", "target_name": "dev", "node_id": "sql_operation.github_analytics.inline_query"} */
+
+  
+  select count(*) as nb from bronze.raw_repositories
+  
+  limit 5
+
+[0m12:17:49.955128 [debug] [Thread-1 (]: DuckDB adapter: Rolling back transaction.
+[0m12:17:49.955707 [debug] [Thread-1 (]: On sql_operation.github_analytics.inline_query: Close
+[0m12:17:49.957664 [debug] [Thread-1 (]: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^
+[0m12:17:49.958337 [debug] [Thread-1 (]: Finished running node sql_operation.github_analytics.inline_query
+[0m12:17:49.959067 [debug] [Thread-4 (]: Marking all children of 'sql_operation.github_analytics.inline_query' to be skipped because of status 'error'.  Reason: Runtime Error in sql_operation inline_query (from remote system.sql)
+  Catalog Error: Table with name raw_repositories does not exist!
+  Did you mean "information_schema.referential_constraints"?
+  
+  LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                       ^.
+[0m12:17:49.960183 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:17:49.960771 [debug] [MainThread]: Connection 'sql_operation.github_analytics.inline_query' was properly closed.
+[0m12:17:49.961327 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Runtime Error in sql_operation inline_query (from remote system.sql)
+    Catalog Error: Table with name raw_repositories does not exist!
+    Did you mean "information_schema.referential_constraints"?
+    
+    LINE 4:   select count(*) as nb from bronze.raw_repositories
+                                         ^
+[0m12:17:49.962355 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.741303, "process_in_blocks": "0", "process_kernel_time": 0.145001, "process_mem_max_rss": "152092", "process_out_blocks": "1008", "process_user_time": 1.88502}
+[0m12:17:49.963102 [debug] [MainThread]: Command `dbt show` failed at 12:17:49.962955 after 0.74 seconds
+[0m12:17:49.963597 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711f6676b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711c350830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x73711c341970>]}
+[0m12:17:49.964303 [debug] [MainThread]: Flushing usage events
+[0m12:17:50.773840 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:07:02.099744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7554609c0e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75545ea6c5f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75545e330b30>]}
+
+
+============================== 14:07:02.200100 | c82d3ab8-032c-48f7-aa66-ae50405ba091 ==============================
+[0m14:07:02.200100 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:07:02.201113 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt show --inline select count(*) as nb from bronze.raw_repositories', 'use_experimental_parser': 'False', 'log_format': 'default', 'indirect_selection': 'eager', 'debug': 'False', 'warn_error': 'None', 'no_print': 'None', 'target_path': 'None', 'profiles_dir': '/home/joao-victor/.dbt', 'log_cache_events': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'use_colors': 'True', 'log_path': 'logs', 'write_json': 'True', 'printer_width': '80', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'cache_selected_only': 'False', 'static_parser': 'True', 'partial_parse': 'True', 'quiet': 'False'}
+[0m14:07:02.202001 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:07:02.221848 [debug] [MainThread]: Resource report: {"command_name": "show", "command_success": false, "command_wall_clock_time": 0.2450824, "process_in_blocks": "71000", "process_kernel_time": 0.156269, "process_mem_max_rss": "100136", "process_out_blocks": "8", "process_user_time": 1.508557}
+[0m14:07:02.222454 [debug] [MainThread]: Command `dbt show` failed at 14:07:02.222341 after 0.25 seconds
+[0m14:07:02.222820 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75545e4c10d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7554609c0e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x75546094eea0>]}
+[0m14:07:02.223211 [debug] [MainThread]: Flushing usage events
+[0m14:07:02.811837 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:44:53.981678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78de29ff67e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78de27e151f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78de27cc8b30>]}
+
+
+============================== 14:44:53.984394 | 42d8b9b7-620b-4803-90a4-6f3e16468813 ==============================
+[0m14:44:53.984394 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:44:53.985064 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run --select silver', 'use_experimental_parser': 'False', 'empty': 'False', 'profiles_dir': '/home/joao-victor/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'target_path': 'None', 'log_path': 'logs', 'write_json': 'True', 'introspect': 'True', 'no_print': 'None', 'log_cache_events': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'printer_width': '80', 'warn_error': 'None', 'version_check': 'True', 'log_format': 'default', 'use_colors': 'True', 'debug': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False'}
+[0m14:44:53.985876 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:44:53.987217 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06022016, "process_in_blocks": "0", "process_kernel_time": 0.075952, "process_mem_max_rss": "100116", "process_out_blocks": "16", "process_user_time": 1.245226}
+[0m14:44:53.987780 [debug] [MainThread]: Command `dbt run` failed at 14:44:53.987655 after 0.06 seconds
+[0m14:44:53.988233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78de29ff67e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78de2728f440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x78de2926ab70>]}
+[0m14:44:53.988706 [debug] [MainThread]: Flushing usage events
+[0m14:44:54.481922 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:45:13.416860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bc9347cbf50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bc9339c65a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bc9344a77a0>]}
+
+
+============================== 14:45:13.420800 | fb602b7a-5428-4bc3-9e68-4d8d566ba9d3 ==============================
+[0m14:45:13.420800 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:45:13.421706 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'target_path': 'None', 'no_print': 'None', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'profiles_dir': '/home/joao-victor/.dbt', 'use_colors': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'version_check': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'introspect': 'True', 'printer_width': '80', 'log_cache_events': 'False', 'static_parser': 'True', 'cache_selected_only': 'False', 'write_json': 'True', 'invocation_command': 'dbt run --select silver'}
+[0m14:45:13.422696 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/joao-victor/Documents/data_engineering/def/dbt/github_analytics/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:45:13.423835 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.0869715, "process_in_blocks": "0", "process_kernel_time": 0.071971, "process_mem_max_rss": "100284", "process_out_blocks": "0", "process_user_time": 1.399451}
+[0m14:45:13.424438 [debug] [MainThread]: Command `dbt run` failed at 14:45:13.424315 after 0.09 seconds
+[0m14:45:13.424869 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bc9347c9d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bc93393c1a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7bc9358f3f80>]}
+[0m14:45:13.425401 [debug] [MainThread]: Flushing usage events
+[0m14:45:14.137044 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fact_repo_activity
+    columns:
+      - name: repo_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_repository')
+              field: repo_id
+      - name: date_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_id
